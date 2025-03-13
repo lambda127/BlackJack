@@ -62,7 +62,7 @@ public class Card {
     public int CheckNum(String str){
         int num = 0;
         String result = str.substring(str.length()-1);
-        if(result == "0") result = "10";
+        if(result.equals("0")) result = "10";
 
         switch(result){
             case "A":

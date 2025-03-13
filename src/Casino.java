@@ -25,6 +25,16 @@ public class Casino {
             System.out.print(">>>> ");
             bet = sc.nextInt();
 
+
+            if(money <= 0){
+                System.out.println("Tang-Jin : Neo TongJang Teong-Teong");
+
+                System.out.println("Ending Game...");
+                System.out.println();
+                return;
+            }
+
+
             while(bet>money){
                 System.out.println();
 
